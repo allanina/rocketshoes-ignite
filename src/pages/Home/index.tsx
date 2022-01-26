@@ -44,8 +44,8 @@ const Home = (): JSX.Element => {
   return (
     <ProductList>
       <li>
-        <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg" alt="Tênis de Caminhada Leve Confortável" />
-        <strong>Tênis de Caminhada Leve Confortável</strong>
+        <img src="https://cf.shopee.com.br/file/b3cdee0fd10b1dbd57b64e6900fdfb9c" alt="Tênis de Caminhada Leve Confortável" />
+        <strong>Tênis Chuck Taylor morangos</strong>
         <span>R$ 179,90</span>
         <button
           type="button"
@@ -60,6 +60,7 @@ const Home = (): JSX.Element => {
           <span>ADICIONAR AO CARRINHO</span>
         </button>
       </li>
+      
     </ProductList>
   );
 };

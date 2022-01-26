@@ -11,12 +11,14 @@ export const ProductList = styled.ul`
     display: flex;
     flex-direction: column;
     background: #fff;
-    border-radius: 4px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 1rem;
 
     img {
       align-self: center;
-      max-width: 250px;
+      max-width: 18rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
     }
 
     > strong {
@@ -33,7 +35,7 @@ export const ProductList = styled.ul`
     }
 
     button {
-      background: #7159c1;
+      background: #ff6781;
       color: #fff;
       border: 0;
       border-radius: 4px;
